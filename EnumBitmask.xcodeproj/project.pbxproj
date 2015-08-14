@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F84DB34D1B7CAD68004E55F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F84DB34C1B7CAD68004E55F7 /* main.m */; };
+		F84DB3501B7CAD68004E55F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F84DB34F1B7CAD68004E55F7 /* AppDelegate.m */; };
+		F84DB3531B7CAD68004E55F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84DB3521B7CAD68004E55F7 /* ViewController.m */; };
+		F84DB3561B7CAD68004E55F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84DB3541B7CAD68004E55F7 /* Main.storyboard */; };
+		F84DB3581B7CAD68004E55F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84DB3571B7CAD68004E55F7 /* Images.xcassets */; };
+		F84DB35B1B7CAD68004E55F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F84DB3591B7CAD68004E55F7 /* LaunchScreen.xib */; };
+		F84DB3671B7CAD68004E55F7 /* EnumBitmaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F84DB3661B7CAD68004E55F7 /* EnumBitmaskTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F84DB3611B7CAD68004E55F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84DB33F1B7CAD68004E55F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F84DB3461B7CAD68004E55F7;
+			remoteInfo = EnumBitmask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F84DB3471B7CAD68004E55F7 /* EnumBitmask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnumBitmask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84DB34B1B7CAD68004E55F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F84DB34C1B7CAD68004E55F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F84DB34E1B7CAD68004E55F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F84DB34F1B7CAD68004E55F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F84DB3511B7CAD68004E55F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F84DB3521B7CAD68004E55F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F84DB3551B7CAD68004E55F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F84DB3571B7CAD68004E55F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F84DB35A1B7CAD68004E55F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F84DB3601B7CAD68004E55F7 /* EnumBitmaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnumBitmaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84DB3651B7CAD68004E55F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F84DB3661B7CAD68004E55F7 /* EnumBitmaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumBitmaskTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F84DB3441B7CAD68004E55F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84DB35D1B7CAD68004E55F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F84DB33E1B7CAD68004E55F7 = {
+			isa = PBXGroup;
+			children = (
+				F84DB3491B7CAD68004E55F7 /* EnumBitmask */,
+				F84DB3631B7CAD68004E55F7 /* EnumBitmaskTests */,
+				F84DB3481B7CAD68004E55F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F84DB3481B7CAD68004E55F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F84DB3471B7CAD68004E55F7 /* EnumBitmask.app */,
+				F84DB3601B7CAD68004E55F7 /* EnumBitmaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F84DB3491B7CAD68004E55F7 /* EnumBitmask */ = {
+			isa = PBXGroup;
+			children = (
+				F84DB34E1B7CAD68004E55F7 /* AppDelegate.h */,
+				F84DB34F1B7CAD68004E55F7 /* AppDelegate.m */,
+				F84DB3511B7CAD68004E55F7 /* ViewController.h */,
+				F84DB3521B7CAD68004E55F7 /* ViewController.m */,
+				F84DB3541B7CAD68004E55F7 /* Main.storyboard */,
+				F84DB3571B7CAD68004E55F7 /* Images.xcassets */,
+				F84DB3591B7CAD68004E55F7 /* LaunchScreen.xib */,
+				F84DB34A1B7CAD68004E55F7 /* Supporting Files */,
+			);
+			path = EnumBitmask;
+			sourceTree = "<group>";
+		};
+		F84DB34A1B7CAD68004E55F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F84DB34B1B7CAD68004E55F7 /* Info.plist */,
+				F84DB34C1B7CAD68004E55F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F84DB3631B7CAD68004E55F7 /* EnumBitmaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				F84DB3661B7CAD68004E55F7 /* EnumBitmaskTests.m */,
+				F84DB3641B7CAD68004E55F7 /* Supporting Files */,
+			);
+			path = EnumBitmaskTests;
+			sourceTree = "<group>";
+		};
+		F84DB3641B7CAD68004E55F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F84DB3651B7CAD68004E55F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F84DB3461B7CAD68004E55F7 /* EnumBitmask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F84DB36A1B7CAD68004E55F7 /* Build configuration list for PBXNativeTarget "EnumBitmask" */;
+			buildPhases = (
+				F84DB3431B7CAD68004E55F7 /* Sources */,
+				F84DB3441B7CAD68004E55F7 /* Frameworks */,
+				F84DB3451B7CAD68004E55F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnumBitmask;
+			productName = EnumBitmask;
+			productReference = F84DB3471B7CAD68004E55F7 /* EnumBitmask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F84DB35F1B7CAD68004E55F7 /* EnumBitmaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F84DB36D1B7CAD68004E55F7 /* Build configuration list for PBXNativeTarget "EnumBitmaskTests" */;
+			buildPhases = (
+				F84DB35C1B7CAD68004E55F7 /* Sources */,
+				F84DB35D1B7CAD68004E55F7 /* Frameworks */,
+				F84DB35E1B7CAD68004E55F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F84DB3621B7CAD68004E55F7 /* PBXTargetDependency */,
+			);
+			name = EnumBitmaskTests;
+			productName = EnumBitmaskTests;
+			productReference = F84DB3601B7CAD68004E55F7 /* EnumBitmaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F84DB33F1B7CAD68004E55F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Test;
+				TargetAttributes = {
+					F84DB3461B7CAD68004E55F7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F84DB35F1B7CAD68004E55F7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F84DB3461B7CAD68004E55F7;
+					};
+				};
+			};
+			buildConfigurationList = F84DB3421B7CAD68004E55F7 /* Build configuration list for PBXProject "EnumBitmask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F84DB33E1B7CAD68004E55F7;
+			productRefGroup = F84DB3481B7CAD68004E55F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F84DB3461B7CAD68004E55F7 /* EnumBitmask */,
+				F84DB35F1B7CAD68004E55F7 /* EnumBitmaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F84DB3451B7CAD68004E55F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84DB3561B7CAD68004E55F7 /* Main.storyboard in Resources */,
+				F84DB35B1B7CAD68004E55F7 /* LaunchScreen.xib in Resources */,
+				F84DB3581B7CAD68004E55F7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84DB35E1B7CAD68004E55F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F84DB3431B7CAD68004E55F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84DB3531B7CAD68004E55F7 /* ViewController.m in Sources */,
+				F84DB3501B7CAD68004E55F7 /* AppDelegate.m in Sources */,
+				F84DB34D1B7CAD68004E55F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84DB35C1B7CAD68004E55F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84DB3671B7CAD68004E55F7 /* EnumBitmaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F84DB3621B7CAD68004E55F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F84DB3461B7CAD68004E55F7 /* EnumBitmask */;
+			targetProxy = F84DB3611B7CAD68004E55F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F84DB3541B7CAD68004E55F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F84DB3551B7CAD68004E55F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F84DB3591B7CAD68004E55F7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F84DB35A1B7CAD68004E55F7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F84DB3681B7CAD68004E55F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F84DB3691B7CAD68004E55F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F84DB36B1B7CAD68004E55F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnumBitmask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F84DB36C1B7CAD68004E55F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnumBitmask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F84DB36E1B7CAD68004E55F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EnumBitmaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnumBitmask.app/EnumBitmask";
+			};
+			name = Debug;
+		};
+		F84DB36F1B7CAD68004E55F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EnumBitmaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnumBitmask.app/EnumBitmask";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F84DB3421B7CAD68004E55F7 /* Build configuration list for PBXProject "EnumBitmask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84DB3681B7CAD68004E55F7 /* Debug */,
+				F84DB3691B7CAD68004E55F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F84DB36A1B7CAD68004E55F7 /* Build configuration list for PBXNativeTarget "EnumBitmask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84DB36B1B7CAD68004E55F7 /* Debug */,
+				F84DB36C1B7CAD68004E55F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F84DB36D1B7CAD68004E55F7 /* Build configuration list for PBXNativeTarget "EnumBitmaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84DB36E1B7CAD68004E55F7 /* Debug */,
+				F84DB36F1B7CAD68004E55F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F84DB33F1B7CAD68004E55F7 /* Project object */;
+}
