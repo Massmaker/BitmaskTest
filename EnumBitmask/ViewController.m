@@ -11,10 +11,10 @@
 typedef NS_OPTIONS(NSInteger, ElementOptions)
 {
     ElementOptionsNone = 0,
-    ElementOptionsIdea = (1 << 1),
-    ElementOptionsDone = (1 << 2),
-    ElementOptionsDecision = (1 << 3),
-    ElementOptionsReservedValue1 = (1 << 4)
+    ElementOptionsIdea = 1,
+    ElementOptionsDone = (1 << 1),
+    ElementOptionsDecision = (1 << 2),
+    ElementOptionsReservedValue1 = (1 << 3)
 };
 
 
@@ -53,49 +53,49 @@ typedef NS_OPTIONS(NSInteger, ElementOptions)
     
     switch (buttonTag) {
         case 1:
-            if (self.currentMask & ElementOptionsIdea)
+            if (self.currentMask & ElementOptionsIdea) //option enabled
             {
-                self.currentMask  = self.currentMask & ~ElementOptionsIdea;
+                self.currentMask  = self.currentMask & ~ElementOptionsIdea; //disable option
             }
             else
             {
-                self.currentMask = self.currentMask | ElementOptionsIdea;
+                self.currentMask = self.currentMask | ElementOptionsIdea; //enable option
             }
             break;
         case 2:
         {
-            if (self.currentMask & ElementOptionsDone)
+            if (self.currentMask & ElementOptionsDone) //option enabled
             {
-                self.currentMask = self.currentMask & ~ElementOptionsDone;
+                self.currentMask = self.currentMask & ~ElementOptionsDone; //disable option
             }
             else
             {
-                self.currentMask = self.currentMask | ElementOptionsDone;
+                self.currentMask = self.currentMask | ElementOptionsDone; //enable option
             }
         }
             break;
         case 3:
         {
-            if (self.currentMask & ElementOptionsDecision)
+            if (self.currentMask & ElementOptionsDecision) //option enabled
             {
-                self.currentMask = self.currentMask & ~ElementOptionsDecision;
+                self.currentMask = self.currentMask & ~ElementOptionsDecision; //disable option
             }
             else
             {
-                self.currentMask = self.currentMask | ElementOptionsDecision;
+                self.currentMask = self.currentMask | ElementOptionsDecision; //enable option
             }
         }
             break;
         case 4:
         {
             
-            if (self.currentMask & ElementOptionsReservedValue1)
+            if (self.currentMask & ElementOptionsReservedValue1) //option enabled
             {
-                self.currentMask = self.currentMask & ~ElementOptionsReservedValue1;
+                self.currentMask = self.currentMask & ~ElementOptionsReservedValue1; //disable option
             }
             else
             {
-                self.currentMask = self.currentMask | ElementOptionsReservedValue1;
+                self.currentMask = self.currentMask | ElementOptionsReservedValue1; //enable option
             }
         }
             break;
